@@ -1,0 +1,10 @@
+.about-section {
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.8), rgba(32, 58, 67, 0.8), rgba(44, 83, 100, 0.8)), 
+    url(../../Assets/professional-it-bg.jpg); /* Replace with your professional IT-themed image */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Create a parallax effect */
+  padding: 60px 20px;
+  color: #ffffff; /* White text for contrast */
+}

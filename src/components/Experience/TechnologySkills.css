@@ -1,0 +1,47 @@
+.tech-skills-container {
+  margin: 0; /* Remove margins to fit the table across the page */
+  padding: 20px;
+  width: 100%; /* Ensure the container spans the full width of the page */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: left; /* Align the header text to the left */
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.skills-table {
+  width: 100%; /* Make the table span the full width of the page */
+  border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left; /* Align text inside cells to the left */
+}
+
+.skills-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.skills-table td {
+  color: black; /* Ensure text inside rows is black */
+}
+
+.skills-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.skills-table tr:hover {
+  background-color: #ddd;
+}

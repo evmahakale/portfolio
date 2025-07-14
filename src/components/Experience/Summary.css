@@ -1,0 +1,45 @@
+.summary-container {
+    background-color: #ffffff; /* Change background to solid white */
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+    margin-bottom: 30px;
+    text-align: left; /* Align all text to the left */
+  }
+  
+  .summary-header {
+    font-size: 28px; /* Slightly smaller than ProfessionalExperience header */
+    color: #333; /* Dark gray for a professional look */
+    margin-bottom: 20px;
+    font-weight: bold; /* Make header bold */
+  }
+  
+  .summary-content {
+    text-align: justify; /* Justify alignment for the text */
+  }
+  
+  .summary-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .summary-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555; /* Dark gray for text */
+    line-height: 1.6; /* Improve readability with slightly larger line spacing */
+    text-align: justify; /* Justify alignment for list items */
+  }
+  
+  .summary-item .icon {
+    margin-right: 10px;
+    color: #6c63ff; /* Purple color for the arrow icon */
+    font-size: 18px;
+  }
+  
+  .summary-container:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Add hover effect for interactivity */
+  }

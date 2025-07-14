@@ -1,0 +1,29 @@
+.certifications-section {
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.8), rgba(32, 58, 67, 0.8), rgba(44, 83, 100, 0.8)), 
+    url(../../Assets/professional-it-bg.jpg); /* Replace with your professional IT-themed image */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Create a parallax effect */
+  padding: 60px 20px;
+  color: #ffffff; /* White text for contrast */
+  }
+  
+  .certifications-header {
+    text-align: left; /* Align header text to the left */
+    margin-bottom: 40px;
+  }
+  
+  .certifications-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff; /* White for the title */
+    text-align: left; /* Ensure title is left-aligned */
+  }
+  
+  .certifications-description {
+    font-size: 18px;
+    color: #d1d1e0; /* Light gray for the description */
+    margin-top: 10px;
+    text-align: left; /* Ensure description is left-aligned */
+  }

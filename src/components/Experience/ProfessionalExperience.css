@@ -1,0 +1,66 @@
+.experience-section {
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.8), rgba(32, 58, 67, 0.8), rgba(44, 83, 100, 0.8)), 
+    url(../../Assets/professional-it-bg.jpg); /* Replace with your professional IT-themed image */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Create a parallax effect */
+  padding: 60px 20px;
+  color: #ffffff; /* White text for contrast */
+  }
+  
+  .experience-header {
+    text-align: left;
+    font-size: 32px;
+    color: #efe7e7; /* Changed to black */
+    margin-bottom: 20px;
+  }
+  
+  .experience-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(242, 241, 241, 0.1);
+    text-align: left;
+  }
+  
+  .experience-role,
+  .experience-company,
+  .experience-client,
+  .experience-duration,
+  .experience-responsibility {
+    font-size: 18px;
+    color: black; /* Changed to black */
+    font-weight: bold; /* Made bold */
+    margin-bottom: 10px;
+  }
+  
+  .responsibility-list{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .responsibility-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black; /* Changed to black */
+  }
+  
+  .responsibility-item .icon{
+    margin-right: 10px;
+    color: #6c63ff;
+    font-size: 16px;
+  }
+  
+  .responsibility-item:last-child {
+    font-weight: bold;
+  }
+  
+  .experience-card:hover{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }

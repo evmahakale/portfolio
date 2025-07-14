@@ -1,0 +1,64 @@
+.home-section {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Blue-gray gradient for a professional IT look */
+    padding: 60px 20px; /* Increased padding for better spacing */
+    color: #ffffff; /* White text for contrast */
+  }
+  
+  .home-content {
+    max-width: 1100px; /* Reduced max-width for better alignment */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .home-header {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 30px; /* Add spacing below the header */
+  }
+  
+  .welcome-heading {
+    font-size: 30px; /* Large font size for the main heading */
+    font-weight: bold;
+    color: #ffffff; /* White for the main heading */
+    margin-bottom: 20px;
+    line-height: 1.2; /* Adjust line height for better spacing */
+  }
+  
+  .coding-highlight {
+    color: #00d8ff; /* Bright cyan for "Coding" to reflect a tech vibe */
+  }
+  
+  .welcome-text h2 {
+    font-size: 30px; /* Subheading font size */
+    font-weight: bold;
+    color: #00d8ff; /* Bright cyan for emphasis */
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 18px; /* Standard font size for readability */
+    color: #d1d1e0; /* Light gray for readability */
+    line-height: 1.8; /* Improve readability with larger line spacing */
+    margin-bottom: 20px;
+    text-align: justify; /* Justify alignment for better text distribution */
+  }
+  
+  .home-quote {
+    font-size: 16px;
+    font-style: italic;
+    color: #ffffff; /* White for the quote */
+    border-left: 4px solid #00d8ff; /* Cyan border for emphasis */
+    padding-left: 15px;
+    margin-top: 20px;
+    text-align: justify; /* Justify alignment for the quote */
+  }
+  
+  .home-image {
+    text-align: center; /* Center the image */
+    margin-top: 30px; /* Add spacing above the image */
+  }
+  
+  .home-image img {
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for a professional look */
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+  }

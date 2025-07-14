@@ -1,0 +1,41 @@
+.certifications-recognitions-section {
+  background: linear-gradient(135deg, #f9f9f9, #e3f2fd); /* Light gradient matching the About page */
+  padding: 60px 20px; /* Add padding for spacing */
+  color: #333; /* Dark gray text for contrast */
+}
+
+.certification-col {
+  margin-bottom: 30px; /* Add spacing between cards */
+}
+
+.certification-card {
+  background-color: #ffffff; /* White background for the card */
+  border: 1px solid #ddd; /* Light border for the card */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certification-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.certification-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Dark gray for the title */
+  margin-bottom: 10px;
+}
+
+.certification-date {
+  font-size: 14px;
+  color: #6c757d; /* Muted gray for the date */
+  margin-bottom: 15px;
+}
+
+.certification-description {
+  font-size: 16px;
+  color: #555; /* Medium gray for the description */
+  line-height: 1.6;
+}
