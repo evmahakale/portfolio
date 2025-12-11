@@ -39,3 +39,10 @@
   color: #555; /* Medium gray for the description */
   line-height: 1.6;
 }
+
+.section-title {
+  text-align: left; /* Aligns the title to the left */
+  font-size: 1.5rem; /* Adjust the font size if needed */
+  margin-bottom: 1rem; /* Adds spacing below the title */
+  font-weight: bold; /* Makes the title bold */
+}
